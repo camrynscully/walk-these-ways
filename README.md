@@ -1,3 +1,6 @@
+This respository is a fork of Improbable-AI's *Walk These Ways* and provides the control framework for my Master's thesis work with Unitree's Go1. Additional work can be found in my [Go1](https://github.com/camrynscully/Go1) repository.
+
+
 # Go1 Sim-to-Real Locomotion Starter Kit
 
 
