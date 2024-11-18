@@ -56,10 +56,10 @@ class RunnerArgs(PrefixProto, cli=False):
     log_freq = 10
 
     # load and resume
-    resume = False
+    resume = True
     load_run = -1  # -1 = last run
     checkpoint = -1  # -1 = last saved model
-    resume_path = None  # updated from load_run and chkpt
+    resume_path = "runs/gait-conditioned-agility/pretrain-v0/train/025417.456545"  # updated from load_run and chkpt
 
 
 class Runner:
