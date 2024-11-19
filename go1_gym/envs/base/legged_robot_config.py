@@ -300,6 +300,7 @@ class Cfg(PrefixProto, cli=False):
         tracking_ang_vel = 0.5
         lin_vel_z = -2.0
         ang_vel_xy = -0.05
+        ang_vel_z = -0.05
         orientation = -0.
         torques = -0.00001
         dof_vel = -0.

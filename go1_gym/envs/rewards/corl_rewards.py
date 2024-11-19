@@ -29,6 +29,10 @@ class CoRLRewards:
     def _reward_ang_vel_xy(self):
         # Penalize xy axes base angular velocity
         return torch.sum(torch.square(self.env.base_ang_vel[:, :2]), dim=1)
+    
+    def _reward_ang_vel_z(self):
+        # Penalize z-axis base angular velocity
+        return torch.square(self.env.base_ang_vel[:, 2])
 
     def _reward_orientation(self):
         # Penalize non flat base orientation
